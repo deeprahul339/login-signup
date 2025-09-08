@@ -110,7 +110,7 @@ const Login = () => {
                 type="submit"
                 sx={{ width: "100px", borderRadius: "10px" }}
               >
-                Login
+                LOGIN
               </Button>
             </Box>
           </Box>
