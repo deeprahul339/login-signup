@@ -1,4 +1,3 @@
-import React from "react";
 import { TextField } from "@mui/material";
 
 const InputField = ({
@@ -44,13 +43,13 @@ const InputField = ({
           padding: 1,
         },
         "& .MuiFormLabel-root": {
-          color: "#888888", // label default color (gray)
+          color: "#888888",
         },
         "& .MuiFormLabel-root.Mui-focused": {
-          color: "#888888", // keep gray even when focused
+          color: "#888888",
         },
         "& .MuiFormLabel-root.Mui-error": {
-          color: "#888888", // keep gray even when there's an error
+          color: "#888888",
         },
       }}
     />
