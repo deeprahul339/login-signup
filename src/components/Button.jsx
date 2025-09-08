@@ -1,5 +1,3 @@
-// src/components/Button.jsx
-import React from "react";
 import { Button as MuiButton } from "@mui/material";
 
 const Button = ({ children, onClick, type, sx = {}, ...rest }) => {
@@ -13,14 +11,12 @@ const Button = ({ children, onClick, type, sx = {}, ...rest }) => {
         backgroundColor: "#00796b",
         color: "#fff",
         textTransform: "none",
-        // borderRadius: "8px",
-        // padding: "10px 20px",
         fontWeight: 500,
         transition: "background-color 0.3s ease",
         "&:hover": {
           backgroundColor: "#00695c",
         },
-        ...sx, // allow overrides and additions
+        ...sx,
       }}
       {...rest}
     >

@@ -1,7 +1,6 @@
-// CustomLink.js
-import React from "react";
-import { Link as MuiLink } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+
+import { Link as MuiLink } from "@mui/material";
 
 const CustomLink = ({ to, children, sx = {}, onClick }) => {
   const navigate = useNavigate();
